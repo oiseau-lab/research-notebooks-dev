@@ -1,1 +1,6 @@
 title: Research Notebooks
+description: >
+  Electronic Research Notebooks (ERNs) at Manchester has been set up, in the first instance, to share interative .html plots with researchers and research-supporting staff at the University, which graphically depict features of ERNs.
+
+# Build settings
+remote_theme: jekyll/minima
