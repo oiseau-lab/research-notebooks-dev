@@ -8,6 +8,4 @@
 layout: home
 ---
 
-### Homepage
-
-Any content written here will end up on the homepage of the Github Pages-created website representation of this repository.
+Homepage for [oiseau-lab](https://github.com/oiseau-lab)'s GitHub Pages of the [research-notebooks repository](https://github.com/oiseau-lab/research-notebooks).
