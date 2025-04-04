@@ -8,4 +8,8 @@
 layout: home
 ---
 
+| Stakeholder ID | Plot Link |
+| --- | --- |
+| main_plot | [main_plot Plot](https://oiseau-lab.github.io/research-notebooks/main_plot/) |
+
 Homepage for [oiseau-lab](https://github.com/oiseau-lab)'s GitHub Pages of the [research-notebooks repository](https://github.com/oiseau-lab/research-notebooks).
