@@ -5,4 +5,4 @@ This repository intends to host public-facing information on research notebook p
 
 | Stakeholder ID | Plot Link |
 | -------------- | --------- |
-| main_plot       | [Link to main plot](https://github.com/oiseau-lab/research-notebooks/main_plot/) |
+| main_plot       | [Link to main plot](https://oiseau-lab.github.io/research-notebooks/main_plot/) |
