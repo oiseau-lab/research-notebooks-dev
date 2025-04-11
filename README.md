@@ -6,7 +6,7 @@ This repository intends to host public-facing information on research notebook p
 | Stakeholder ID | Plot Link |
 | -------------- | --------- |
 | main_plot       | [Link to main plot](https://oiseau-lab.github.io/research-notebooks/main_plot/) |
-| STK-003 STK-021 STK-027 STK-043 | [STK-003%STK-021%STK-027%STK-043 Plot](https://oiseau-lab.github.io/research-notebooks/STK-003%STK-021%STK-027%STK-043/) |
+| STK-003 STK-021 STK-027 STK-043 | [STK-003 STK-021 STK-027 STK-043 Plot](https://oiseau-lab.github.io/research-notebooks/STK-003%STK-021%STK-027%STK-043/) |
 | STK-020 | [STK-020 Plot](https://oiseau-lab.github.io/research-notebooks/STK-020) |
 | STK-011-01 | [STK-011-01 Plot](https://oiseau-lab.github.io/research-notebooks/STK-011-01/) |
 | STK-002 | [STK-002 Plot](https://oiseau-lab.github.io/research-notebooks/STK-002/) |
