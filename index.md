@@ -8,7 +8,6 @@
 layout: home
 ---
 
-## Stakeholder Plots
 
 | Stakeholder ID | Plot Link |
 | -------------- | --------- |
