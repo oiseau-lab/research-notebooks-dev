@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Stakeholder Contribution
+title: Contribution Plots Table
 ---
 
 
