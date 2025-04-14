@@ -8,6 +8,13 @@
 layout: home
 ---
 
+{% for page in site.pages %}
+  {% unless page.hidden %}
+    <a href="{{ page.url }}">{{ page.title }}</a>
+  {% endunless %}
+{% endfor %}
+
+
 | Stakeholder ID | Plot Link |
 | -------------- | --------- |
 | ELN_Attributes | [Main plot](https://oiseau-lab.github.io/research-notebooks/main_plot/) |
@@ -32,5 +39,7 @@ layout: home
 | STK-058 | [STK-058 Plot](https://oiseau-lab.github.io/research-notebooks/STK-058/) |
 | STK-036 | [STK-036 Plot](https://oiseau-lab.github.io/research-notebooks/STK-036/) |
 | STK-121 | [STK-121 Plot](https://oiseau-lab.github.io/research-notebooks/STK-121/) |
+
+
 
 Homepage for [oiseau-lab](https://github.com/oiseau-lab)'s GitHub Pages of the [research-notebooks repository](https://github.com/oiseau-lab/research-notebooks).
