@@ -8,12 +8,6 @@
 layout: home
 ---
 
-{% for page in site.pages %}
-  {% unless page.hidden %}
-    <a href="{{ page.url }}">{{ page.title }}</a>
-  {% endunless %}
-{% endfor %}
-
 
 | Stakeholder ID | Plot Link |
 | -------------- | --------- |
