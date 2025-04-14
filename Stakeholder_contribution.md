@@ -7,7 +7,7 @@ title: Stakeholder Contribution
 | Stakeholder ID | Link |
 | --- | --- |
 | main_plot | [main_plot Plot](https://oiseau-lab.github.io/research-notebooks/main_plot/) |
-| STK-003 STK-021 STK-027 STK-043 | [STK-003%STK-021%STK-027%STK-043 Plot](https://oiseau-lab.github.io/research-notebooks/STK-003 STK-021 STK-027 STK-043/) |
+| STK-003 STK-021 STK-027 STK-043 | [STK-003 STK-021 STK-027 STK-043 Plot](https://oiseau-lab.github.io/research-notebooks/STK-003%20STK-021%20STK-027%20STK-043/) | 
 | STK-020 | [STK-020 Plot](https://oiseau-lab.github.io/research-notebooks/STK-020/) |
 | STK-011-01 | [STK-011-01 Plot](https://oiseau-lab.github.io/research-notebooks/STK-011-01/) |
 | STK-002 | [STK-002 Plot](https://oiseau-lab.github.io/research-notebooks/STK-002/) |
