@@ -8,7 +8,6 @@
 layout: home
 ---
 
-## Stakeholder Contribution
 | Stakeholder ID | Plot Link |
 | -------------- | --------- |
 | ELN_Attributes | [Main plot](https://oiseau-lab.github.io/research-notebooks/main_plot/) |
