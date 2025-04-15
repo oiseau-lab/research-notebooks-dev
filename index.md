@@ -8,14 +8,13 @@
 layout: home
 ---
 
-
-
-
-
-
-
-
-
-
-
 Homepage for [oiseau-lab](https://github.com/oiseau-lab)'s GitHub Pages of the [research-notebooks repository](https://github.com/oiseau-lab/research-notebooks).
+
+{% for stakeholder_plot in site.stakeholder_plots %}
+  <h2>
+    <a href="{{ stakeholder_plot.url }}">
+      {{ stakeholder_plot.title }}
+    </a>
+  </h2>
+  <p>{{ stakeholder_plot.content | markdownify }}</p>
+{% endfor %}

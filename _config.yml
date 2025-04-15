@@ -38,12 +38,13 @@ minima:
   # Set to `true` to show excerpts on the homepage.
   #show_excerpts: false
 
-  # The `collections_dir` is the directory where the collections are stored. 
-  collections_dir: my_collections
-
   # Jekyll collections can help define site navigation 
   collections:
-    - stakeholder_plots
+    stakeholder_plots:
+      output: true
+
+  # The `collections_dir` is the directory where the collections are stored. 
+  #collections_dir: my_collections
 
   # Minima date format.
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
