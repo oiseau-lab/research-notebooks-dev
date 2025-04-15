@@ -18,12 +18,12 @@ remote_theme: "jekyll/minima@1e8a445"
 #  - jekyll-seo-tag
 
 # Jekyll collections can help define site navigation 
-collections:
-  stakeholder_plots:
-    output: true
+#collections:
+#  stakeholder_plots:
+#    output: true #To actually show content in the collection, set to true.
 
 # The `collections_dir` is the directory where the collections are stored. 
-collections_dir: my_collections
+#collections_dir: collections
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
