@@ -8,6 +8,6 @@ https://jekyllrb.com/tutorials/navigation/#scenario-8-retrieving-items-based-on-
 <h3>Stakeholder contributions</h3>
 <ul>
     {% for plot in site.plots %}
-      <li><a href="{{ site.url }}{{ site.github.repository_url }}{{ plot.url }}">{{ plot.title }}</a></li>
+      <li><a href="{{ site.url }}{{ site.baseurl }}{{ plot.url }}">{{ plot.title }}</a></li>
     {% endfor %}
 </ul>
