@@ -8,7 +8,8 @@
 layout: home
 ---
 
-# Homepage for [oiseau-lab](https://github.com/oiseau-lab)'s GitHub Pages of the [research-notebooks repository](https://github.com/oiseau-lab/research-notebooks).
+# Homepage
+For [oiseau-lab](https://github.com/oiseau-lab)'s GitHub Pages of the [research-notebooks repository](https://github.com/oiseau-lab/research-notebooks).
 
 {% for stakeholder_plot in site.stakeholder_plots %}
   <h2>
