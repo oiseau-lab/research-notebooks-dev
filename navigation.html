@@ -3,9 +3,11 @@ layout: page
 title: Navigation
 ---
 
+<!-- Comment in html. The below is written in liquid as per Jekyll documentation on navigation (c.f.
+https://jekyllrb.com/tutorials/navigation/#scenario-8-retrieving-items-based-on-front-matter-properties )hence it will be rendered just as markdown would -->
 <h3>Navigation</h3>
 <ul>
     {% for plot in site.plots %}
-      <li><a href="{{ plot.url }}">{{ plot.title }}</a></li>
+      <li><a href="{{ plot.permalink }}">{{ plot.title }}</a></li>
     {% endfor %}
 </ul>
