@@ -9,7 +9,7 @@ layout: home
 hidden: true
 ---
 
-
+[Contribution Plot Table](/Stakeholder_contribution)
 
 
 
