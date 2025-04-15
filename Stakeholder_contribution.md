@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contribution Plots Table
+permalink: /Stakeholder_contribution.html
 ---
 
 
