@@ -17,6 +17,14 @@ remote_theme: "jekyll/minima@1e8a445"
 #  - jekyll-feed
 #  - jekyll-seo-tag
 
+# Jekyll collections can help define site navigation 
+collections:
+  stakeholder_plots:
+    output: true
+
+# The `collections_dir` is the directory where the collections are stored. 
+collections_dir: my_collections
+
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
   # Minima skin selection.
@@ -37,14 +45,6 @@ minima:
 
   # Set to `true` to show excerpts on the homepage.
   #show_excerpts: false
-
-  # Jekyll collections can help define site navigation 
-  collections:
-    stakeholder_plots:
-      output: true
-
-  # The `collections_dir` is the directory where the collections are stored. 
-  collections_dir: my_collections
 
   # Minima date format.
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
