@@ -11,3 +11,10 @@ https://jekyllrb.com/tutorials/navigation/#scenario-8-retrieving-items-based-on-
       <li><a href="{{ site.url }}{{ site.baseurl }}{{ plot.url }}">{{ plot.title }}</a></li>
     {% endfor %}
 </ul>
+
+<h3>Other</h3>
+<ul>
+    {% for page in site.pages %}
+        <li><a href="{{ site.url }}{{ site.baseurl }}{{ plot.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+</ul>
