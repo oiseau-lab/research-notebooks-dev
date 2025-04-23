@@ -21,5 +21,9 @@ Testing the formatting of a table imported from `.csv` format using Liquid below
       {% endfor %}
     </tr>
     {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
   {% endfor %}
 </table>
