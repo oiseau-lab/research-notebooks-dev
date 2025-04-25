@@ -13,9 +13,9 @@ description: >
 #Following advice to quote specific git ref (portion following the @) when using remote_theme. This is relevant as the main branch of minima (Minima 3.0) is still in active development. The particular commit is from 27 Feb '25.
 remote_theme: "jekyll/minima@1e8a445"
 
-#plugins:
-#  - jekyll-feed
-#  - jekyll-seo-tag
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 #Added plots folder (with underscore prefix) to the collection of files to be processed by Jekyll.
 collections:
