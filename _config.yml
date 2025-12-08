@@ -1,7 +1,15 @@
 title: Research Notebooks
-author:
-  name: James R.T. Bird
-  email: james.bird@manchester.ac.uk
+authors:
+  moy:
+    name: Qingyi Mao
+    display_name: Moy36
+    email: qingyi@manchester.ac.uk
+    github: Moygogog
+  james:
+    name: James R.T. Bird
+    display_name: jamesbird58
+    email: james.bird@manchester.ac.uk
+    github: jamesbird58
 
 
 # The `>` after `description:` means to ignore line-breaks until next key.
