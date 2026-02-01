@@ -21,3 +21,7 @@ Gemfile.lock
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# confidential data
+_data/FR_Weights_For_Github.csv
+_data/CombinedData_FRGatheringExercises_Anonymised.csv
