@@ -1,29 +1,27 @@
 ---
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
-layout: home
----
+title: Welcome to ERNs Project
+search exclude: true
+sidebar: false
+---  
+
+[![Gem Version](https://badge.fury.io/rb/elixir-toolkit-theme.svg)](https://badge.fury.io/rb/elixir-toolkit-theme) [![Jekyll site CI](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme/actions/workflows/jekyll.yml/badge.svg)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme/actions/workflows/jekyll.yml) 
+
 
 Homepage for [oiseau-lab](https://github.com/oiseau-lab)'s GitHub Pages of the [research-notebooks repository](https://github.com/oiseau-lab/research-notebooks).
 
-Testing the formatting of a table imported from `.csv` format using Liquid below.
+## Credit
+The basis of the notebook attributes is the [ELN Finder](https://eln-finder.ulb.tu-darmstadt.de/home)'s [metadata schema v1.0](https://doi.org/10.4126/FRL01-006452815), which is kindly made available by [CC BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/).
 
-<table>
-  {% for row in site.data.ERNAttributeDefinition %}
-    {% if forloop.first %}
-    <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
-    </tr>
-    {% endif %}
+Following the [Contributor Role Taxonomy](https://credit.niso.org/), Qingy Mao, [@Moy36](https://github.com/Moy36), was predominantly responsible for the data curation, formal analysis and development of this software, while James R.T. Bird, [@jamesbird58](https://github.com/jamesbird58), was responsible for the conceptualization, methodology, supervision and some software development.
 
-    {% tablerow pair in row %}
-      {{ pair[1] }}
-    {% endtablerow %}
-  {% endfor %}
-</table>
+> [!NOTE]
+> Please note that changes made to the [research-notebooks](https://github.com/oiseau-lab/research-notebooks) repository are now first made downstream in the [research-notebooks-dev](https://github.com/oiseau-lab/research-notebooks-dev) fork. For a changelog, interested parties would therefore be better off referring to the dev repo. This change was made to avoid 'breaking' the deployed webpage in the absence of complete local testing.
+
+> [!TIP]
+> If you wish to run the Jupyter notebook `PlotAndPageGenerationForInterviews.ipynb`, which is used to generate plots and define some of the site structure and formatting, you will be able to do so by setting up a conda :snake: environment by cloning the `environment.yml`.
+
+> [!IMPORTANT]
+> Cloning or forking this repository, without modification, and activating Pages (i.e. automatically defining a sequence of Github Actions) will deploy the site. Like other Jekyll sites, to deploy the site locally, you can do so with Ruby using gems :gem: and bundler as detailed [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll). :link: 
+
+> [!WARNING]
+> For MacOS :computer: users: it is advisable to use [rbenv](https://github
